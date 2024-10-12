@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 :root{
   background-color: white;
@@ -14,11 +15,27 @@ body {
   width: 1120px;
   height: 3054px;
 }
+header span {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #E1624F;
+  font-size: 16px;
+}
+h1{
+  font-size: 36px;
+}
 #Busan {
   margin-bottom: 40px;
 }
 #imagem1 {
   margin: 40px auto 24px;
+}
+#subtitle {
+  font-size: 16px;
+  font-style: italic;
+  padding-left: 25px;
+  text-align: center;
 }
 #destinos {
   margin: 64px auto 64px;
@@ -28,14 +45,54 @@ body {
   background-color: #D9D9D9;
   height: 0.2px;
 }
-#amantes{
+#destinos span {
   margin-bottom: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E1624F;
+  font-size: 16px;
 }
 h2 {
   margin-bottom: 8px;
+  font-size: 32px;
+}
+p {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
+}
+h3 {
+  font-size: 28px;
+  font-weight: bold;
 }
 #templo1 h3 {
   margin: 20px auto 4px;
+}
+ul {
+  font-weight: bold ;
+  font-size: 16px;
+}
+#parque li {
+  margin-left: 30px;
+}
+#parque li::marker{
+  color: black;
+}
+#couple {
+color: #591B98;
+}
+#family {
+color: #E5245E;
+}
+#budget {
+color: #E95E10;
+}
+.history{
+  margin-left: 30px;
+  color: #0C51A7;
+}
+.history::marker{
+  color: black;
 }
 #templo2{
   margin: 48px auto;
@@ -55,6 +112,10 @@ h2 {
 #description {
   margin-top: 40px;
   margin-bottom: 65px ;
+
+}
+#description p {
+  text-align: center;
 }
 footer {
   text-align: center;
